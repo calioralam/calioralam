@@ -38,13 +38,13 @@ const product = [
     {
         id: 6,
         image: 'monster.jpeg',
-        title: 'monster',
+        title: 'monstera',
         price: 1,
     },
     {
         id: 7,
         image: 'algonem.png',
-        title: 'algonem.png',
+        title: 'algonema',
         price: 1,
     }         
  
