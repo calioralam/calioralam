@@ -13,8 +13,8 @@ const product = [
     },
     {
         id: 2,
-        image: 'image/rexus.jpeg',
-        title: 'Rexus DAXA M84',
+        image: 'Caladium green spider.jpeg',
+        title: 'Caladium green spider.jpeg',
         price: 1,
     },
     {
