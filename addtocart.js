@@ -63,7 +63,7 @@ document.getElementById('root').innerHTML = categories.map((item)=>
             </div>
         <div class='bottom'>
         <p>${title}</p>
-        <h2>Rp ${price} jt</h2>`+
+        <h2>Rp ${price} k</h2>`+
         "<button onclick='addtocart("+(i++)+")'>Masukkan Keranjang</button>"+
         `</div>
         </div>`
