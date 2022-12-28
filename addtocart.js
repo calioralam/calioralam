@@ -3,49 +3,49 @@ const product = [
         id: 0,
         image: 'Monsterabors.jpeg',
         title: 'Monstera Borsigiana',
-        price: 25,
+        price: 250,
     },
     {
         id: 1,
         image: 'Monsteratai.jpeg',
         title: 'Monstera Thai Constellation',
-        price: 11,
+        price: 110,
     },
     {
         id: 2,
         image: 'Caladiumgre.jpeg',
         title: 'Caladium green spider',
-        price: 1,
+        price: 100,
     },
     {
         id: 3,
         image: 'aglonemaSuksom.jpeg',
-        title: 'aglonemaSuksom ',
-        price: 1,
+        title: 'aglonema Suksom ',
+        price: 120,
     },
     {
         id: 4,
         image: 'aglonemaRotundumAceh.jpeg',
-        title: 'aglonemaRotundumAceh',
-        price: 18,
+        title: 'aglonema Rotundum Aceh',
+        price: 180,
     },
     {
         id: 5,
         image: 'caladium.jpeg',
         title: 'caladium',
-        price: 24,
+        price: 240,
     },
     {
         id: 6,
         image: 'monster.jpeg',
         title: 'monstera',
-        price: 1,
+        price: 100,
     },
     {
         id: 7,
         image: 'algonem.png',
         title: 'algonema',
-        price: 1,
+        price: 100,
     }         
  
     
@@ -86,21 +86,21 @@ function displaycart(){
     document.getElementById("count").innerHTML=cart.length;
     if(cart.length==0){
         document.getElementById('cartItem').innerHTML = "KOSONG";
-        document.getElementById("total").innerHTML = "Rp "+0+" jt";
+        document.getElementById("total").innerHTML = "Rp "+0+" k";
     }
     else{
         document.getElementById("cartItem").innerHTML = cart.map((items)=>
         {
             var {image, title, price} = items;
             total=total+price;
-            document.getElementById("total").innerHTML = "Rp "+total+" jt";
+            document.getElementById("total").innerHTML = "Rp "+total+" k";
             return(
                 `<div class='cart-item'>
                 <div class='row-img'>
                     <img class='rowimg' src=${image}>
                 </div>
                 <p style='font-size:12px;'>${title}</p>
-                <h2 style='font-size: 15px;'>Rp ${price} jt</h2>`+
+                <h2 style='font-size: 15px;'>Rp ${price} k</h2>`+
                 "<i class='fa-solid fa-trash' onclick='delElement("+ (j++) +")'></i></div>"
                 
             );
