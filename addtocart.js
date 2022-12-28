@@ -1,14 +1,14 @@
 const product = [
     {
         id: 0,
-        image: 'image/sszflip.jpg',
-        title: 'Samsung Z flip 04 16/256',
+        image: 'Monstera Borsigiana.jpeg',
+        title: 'Monstera Borsigiana',
         price: 25,
     },
     {
         id: 1,
-        image: 'image/ROG.jpeg',
-        title: 'ROG phone 6 8/256',
+        image: 'Monstera Thai Constellation.jpeg',
+        title: 'Monstera Thai Constellation',
         price: 11,
     },
     {
@@ -19,32 +19,32 @@ const product = [
     },
     {
         id: 3,
-        image: 'image/JBL.jpeg',
-        title: 'JBL tune 500 BT ',
+        image: 'aglonemaSuksom.jpeg',
+        title: 'aglonemaSuksom ',
         price: 1,
     },
     {
         id: 4,
-        image: 'image/m2-2022.jpeg',
-        title: 'Macbook Air M2 2022 8/256',
+        image: 'aglonemaRotundumAceh.jpeg',
+        title: 'aglonemaRotundumAceh',
         price: 18,
     },
     {
         id: 5,
-        image: 'image/ipadd.jpeg',
-        title: 'Ipad Pro Gen 5 12,9 inch 2021',
+        image: 'caladium.jpeg',
+        title: 'caladium',
         price: 24,
     },
     {
         id: 6,
-        image: 'image/mouse.jpeg',
-        title: 'Logitech G502 Hero',
+        image: 'monster.jpeg',
+        title: 'monster',
         price: 1,
     },
     {
         id: 7,
-        image: 'image/koca.jpeg',
-        title: 'Gaming Chair Pink KUCA',
+        image: 'algonem.png',
+        title: 'algonem.png',
         price: 1,
     }         
  
