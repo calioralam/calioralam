@@ -1,20 +1,20 @@
 const product = [
     {
         id: 0,
-        image: 'MonsteraBorsigiana.jpeg',
+        image: 'Monsterabors.jpeg',
         title: 'Monstera Borsigiana',
         price: 25,
     },
     {
         id: 1,
-        image: 'MonsteraThaiConstellation.jpeg',
+        image: 'Monsteratai.jpeg',
         title: 'Monstera Thai Constellation',
         price: 11,
     },
     {
         id: 2,
-        image: 'Caladiumgreenspider.jpeg',
-        title: 'Caladium green spider.jpeg',
+        image: 'Caladiumgre.jpeg',
+        title: 'Caladium green spider',
         price: 1,
     },
     {
